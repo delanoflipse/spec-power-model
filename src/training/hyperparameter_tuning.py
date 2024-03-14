@@ -32,7 +32,6 @@ def objective(X_train, X_valid, y_train, y_valid):
         return root_mean_squared_error(y_valid, y_hat)
     return objective_function
 
-
 def get_data():
     data_path = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), '../../data/spec_data_cleaned.csv')
